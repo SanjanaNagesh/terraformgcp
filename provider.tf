@@ -1,6 +1,6 @@
 # Specify the provider (GCP, AWS, Azure)
 provider "google" {
-credentials = "${file("/var/lib/jenkins/workspace/gcp-vm/key.json")}"
-project = "web-project-333613"
+credentials = "${file("/home/sanjana_nagesh_ibm_com/key.json")}"
+project = "data-potential-328111"
 region = "us-central1"
 }
